@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+.phandau {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100px;
+    position: relative;
+    
+    background-color: #0094ff;
+   
+}
+
+.logo {
+    height: 40px;
+    width: 80px;
+    margin-left: 50px;
+
+    /* margin-right: 700px; */
+}
+.khuvuc > a{
+    border: 2px solid white;
+    margin: 0 50px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+.khuvuc >a:hover{
+    color: black;
+    border: 2px solid black;
+}
+.search {
+    position: absolute;
+    height: 35px;
+    width: 700px;
+    margin-left: 30px;
+    right: 310px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+.anh1{
+    /* margin-right: 600px; */
+    position: absolute;
+    right: 330px;
+    
+}
+.thongtin {
+    margin-left: 740px;
+    
+    padding: 6px;
+}
+.thongtin >a{
+    color: white;
+    text-decoration: none;
+}
+.thongtin >a:hover{
+    color: black;
+}
+.ngonngu{
+    margin-left: 15px;
+    
+    padding: 6px;
+}
+.ngonngu >a{
+    color: white;
+    text-decoration: none;
+}
+.ngonngu >a:hover{
+    color: black;
+}
+.giohang{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    
+}
+nav{
+    background-color: #0094ff;
+    height: 40px;
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav ul a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding:  10px 15px;
+    margin: 0 10px;
+    color: white;
+    
+}
+nav ul a:hover{
+    color: black;
+}
+.php{
+    max-width: 1300px;
+    margin: auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.mau {
+    color: red;
+}
+
+table img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* CSS cho biểu mẫu */
+button{
+    margin-bottom: 20px;
+    height: 30px;
+    font-weight: bold;
+}
+.hi{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border: 2px solid white;
+}
+.hi:hover{
+    background-color: red;
+    color: black;
+}
+.form-container {
+    display: none;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-container > h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    
+    margin-bottom: 30px;
+    height: 30px;
+}
+.input1{
+    margin-left: 35px;
+}
+.input2{
+    margin-left: 80px;
+    font-weight: bold;
+}
+.sua{
+    border: 1px solid black;
+    width: 300px;
+    height: 340px;
+}
+.sua > h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.sua1{
+    margin-left: 30px;
+}
+.sua3{
+    margin-left: 110px;
+}
+footer{
+    height: 50px;
+    background-color: #0094ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
